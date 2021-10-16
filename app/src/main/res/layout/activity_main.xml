@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="141dp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#777"
+        android:text="태후의 계산기"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#777"
+            android:text="1"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"
+
+            />
+
+        <Button
+
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:text="2"
+
+            android:textColor="@color/material_on_surface_disabled"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/b2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+             />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/b3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="3"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/괄호"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="()"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/b4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/b5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="5"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/b6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="6"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/나누기"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="÷"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/b7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="7"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/b8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="8"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/b9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="9"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/곱하기"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="×"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/빼기"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/b0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/더하기"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/삭제"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="c"
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:context=".MainActivity">
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/결과"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="="
+            android:backgroundTint="#777"
+            android:textSize="30sp"
+            android:textColor="@color/material_on_surface_disabled"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
